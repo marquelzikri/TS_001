@@ -8,7 +8,6 @@ app_icon = "octicon octicon-file-directory"
 app_color = "green"
 app_email = "aulia@kataba.id"
 app_license = "MIT"
-app_include_js = ["/assets/ts_001/js/budget.js", "/assets/ts_001/js/monthly_distribution.js"]
 
 # Includes in <head>
 # ------------------
@@ -174,11 +173,4 @@ user_data_fields = [
 # 	"ts_001.auth.validate"
 # ]
 
-fixtures=[
-	'Property Setter',
-	{"dt": "Custom Field", "filters": [
-        	[
-            		"name", "like", "Monthly Distribution Percentage-%"
-		]
-    	]}
-]
+fixtures=["
